@@ -83,7 +83,7 @@ export default function(obj) {
 
         <link rel="manifest" href="manifest.webmanifest">
         <link rel="stylesheet" href="fonts/notosansmono.css">
-        <link rel="stylesheet" href="cobalt.css">
+        <link rel="stylesheet" href="calestial.css">
 
         <meta name="theme-color" content="#000000">
 
@@ -169,18 +169,6 @@ export default function(obj) {
                                     name: t("TitlePopupSettings")
                                 }]
                             }])}`
-                        }, {
-                            name: "support",
-                            title: `${emoji("❤️‍🩹")} ${t("CollapseSupport")}`,
-                            body: `${t("SupportSelfTroubleshooting")}`
-                            + `${socialLink(emoji("📢"), t("StatusPage"), links.statusPage)}`
-                            + `${socialLink(emoji("🔧"), t("TroubleshootingGuide"), links.troubleshootingGuide)}`
-                            + `<br>`
-                            + `${t("FollowSupport")}`
-                            + `${socialLinks(obj.lang)}`
-                            + `<br>`
-                            + `${t("SourceCode")}`
-                            + `${socialLink(emoji("🐙"), repo.replace("https://github.com/", ''), repo)}`
                         }, {
                             name: "privacy",
                             title: `${emoji("🔒")} ${t("CollapsePrivacy")}`,
@@ -656,7 +644,7 @@ export default function(obj) {
                 'DownloadPopupDescriptionIOS'
             ])}
         </script>
-        <script src="cobalt.js"></script>
+        <script src="calestial.js"></script>
     </body>
 </html>
 `

@@ -1,15 +1,15 @@
 {
-    "name": "cobalt",
-    "description": "save what you love",
-    "version": "7.15",
-    "author": "imput",
-    "exports": "./src/cobalt.js",
+    "name": "api-dl",
+    "description": "For Your Life",
+    "version": "1.0.0",
+    "author": "Jakquellyn",
+    "exports": "./src/calestials.js",
     "type": "module",
     "engines": {
         "node": ">=18"
     },
     "scripts": {
-        "start": "node src/cobalt",
+        "start": "node src/calestials",
         "setup": "node src/modules/setup",
         "test": "node src/util/test",
         "build": "node src/modules/buildStatic",
@@ -17,13 +17,13 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/imputnet/cobalt.git"
+        "url": "git+https://github.com/Jakquellyn/api-dl.git"
     },
     "license": "AGPL-3.0",
     "bugs": {
-        "url": "https://github.com/imputnet/cobalt/issues"
+        "url": "https://github.com/Jakquellyn/api-dl/issues"
     },
-    "homepage": "https://github.com/imputnet/cobalt#readme",
+    "homepage": "https://github.com/Jakquellyn/api-dl#readme",
     "dependencies": {
         "content-disposition-header": "0.6.0",
         "cors": "^2.8.5",
