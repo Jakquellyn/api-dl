@@ -5,6 +5,7 @@ import { cleanHTML } from "./sub/utils.js";
 
 import page from "./pageRender/page.js";
 
+
 export async function buildFront(commitHash, branch) {
     try {
         // preload localization files
