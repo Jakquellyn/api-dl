@@ -2,7 +2,7 @@
     "name": "cobalt",
     "description": "save what you love",
     "version": "1.0.0",
-    "author": "imput",
+    "author": "Jakquellyn",
     "exports": "./src/cobalt.js",
     "type": "module",
     "engines": {
@@ -17,13 +17,13 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/imputnet/cobalt.git"
+        "url": "git+https://github.com/Jakquellyn/saga.git"
     },
     "license": "AGPL-3.0",
     "bugs": {
-        "url": "https://github.com/imputnet/cobalt/issues"
+        "url": "https://github.com/Jakquellyn/saga/issues"
     },
-    "homepage": "https://github.com/imputnet/cobalt#readme",
+    "homepage": "https://github.com/Jakquellyn/saga#readme",
     "dependencies": {
         "content-disposition-header": "0.6.0",
         "cors": "^2.8.5",

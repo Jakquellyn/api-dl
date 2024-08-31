@@ -35,13 +35,13 @@ it's highly recommended to use a reverse proxy (such as nginx) if you want your 
 ## using regular node.js (useful for local development)
 setup script installs all needed `npm` dependencies, but you have to install `node.js` *(version 18 or above)* and `git` yourself.
 
-1. clone the repo: `git clone https://github.com/imputnet/cobalt`.
+1. clone the repo: `git clone https://github.com/Jakquellyn/saga`.
 2. run setup script and follow instructions: `npm run setup`. you need to host api and web instances separately, so pick whichever applies.
 3. run cobalt via `npm start`.
 4. done.
 
 ### ubuntu 22.04 workaround
-`nscd` needs to be installed and running so that the `ffmpeg-static` binary can resolve DNS ([#101](https://github.com/imputnet/cobalt/issues/101#issuecomment-1494822258)):
+`nscd` needs to be installed and running so that the `ffmpeg-static` binary can resolve DNS ([#101](https://github.com/Jakquellyn/saga/issues/101#issuecomment-1494822258)):
 
 ```bash
 sudo apt install nscd
